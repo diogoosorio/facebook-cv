@@ -23,3 +23,21 @@ $config['default_email'] = 'youremail@yourdomain.com';</pre>
 * Create a Facebook App (https://developers.facebook.com/) and edit the app/config/facebook.php file
 
 * Point your browser to http://address/index.php/install, or simply import the db schema (sql folder) and chmod 777 the folders app/facebookcv/views/cache and app/facebookcv/views/compiled
+
+
+Roadmap
+----------------------------
+
+This is definitely an work in progress. Here are a couple of things that I want see done:
+
+* Add administration interface - a friendly way to add / edit / delete elements from the timeline.
+
+* Create a more modular view for the timeline - namelly a way to easily edit the sidebar.
+
+* Update the layou to match the current FB timeline layout - the layout has changed a bit since I've started this.
+
+
+Demo
+----------------------------
+
+You can see an working demo right here - http://cv.diogoosorio.com/
