@@ -1,0 +1,260 @@
+
+/** Depois de aplicado o reset, definir alguma informação básica **/
+html, div, map, dt, isindex, form {
+	display: block;
+}
+
+p, dl, multicol {
+	display: block;
+	margin: 1em 0;
+}
+
+blockquote {
+	display: block;
+	margin: 1em 40px;
+}
+
+address {
+	display: block;
+	font-style: italic;
+}
+
+center {
+	display: block;
+	text-align: center;
+}
+
+table {
+	display: table;
+	border: none;
+	border-collapse: collapse;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-indent: 0;
+}
+
+table[align="left"]{
+	float: left;
+}
+
+table[align="right"]{
+	float: right;
+	text-align: start;
+}
+
+tr {
+	display: table-row;
+	vertical-align: inherit;
+}
+
+col {
+	display: table-column;
+}
+
+tbody {
+	display: table-row-group;
+	vertical-align: middle;
+}
+
+thead {
+	display: table-header-group;
+	vertical-align: middle;
+}
+
+tfoot {
+	display: table-footer-group;
+	vertical-align: middle;
+}
+
+b, strong {
+	font-weight: bolder;
+}
+
+i, cite, em, var, dfn {
+	font-style: italic;
+}
+
+u, ins {
+	text-decoration: underline;
+}
+
+s, strike, del {
+	text-decoration: blink;
+}
+
+big {
+	font-size: larger;
+}
+
+small {
+	font-size: smaller;
+}
+
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+	line-height: normal;
+}
+
+sup {
+	vertical-align: super;
+	font-size: smaller;
+	line-height: normal;
+}
+
+ul, ol, menu, dir {
+	display: block;
+	list-style-type: none;
+	margin: 1em 0;
+}
+
+li {
+	display: list-item;
+}
+
+hr {
+	display: block;
+	height: 2px;
+	border: 1px inset;
+	margin: 0.5em auto 0.5em auto;
+	color: gray;
+}
+
+
+/** Elementos principais **/
+
+body {
+	font-family: 'Lucida Grande', tahoma, verdana, arial, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	line-height: 1.4em;
+	background-color: #e7ebf2;
+}
+
+a {
+	color: #637bad;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.limpar {
+	clear: both;
+}
+
+#contentor {
+	width: 600px;
+	margin: 20px auto;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #0E385F;
+	font-weight: bold;
+	text-align: left;
+}
+
+
+h1 {
+	font-size: 20px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+.passo {
+	display: none;
+	background-color: #FFF;
+	border: 1px dashed #1D2A5B;
+	margin: 40px 0;
+	padding: 20px;
+	
+}
+
+#passo-1 {
+	display: block;
+}
+
+p {
+	margin: 15px 0;
+}
+
+#social {
+	margin: 20px 0;
+	text-align: center;
+}
+
+#social li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.instrucoes {
+	padding: 0 30px;
+	list-style-type: decimal;
+}
+
+.instrucoes li {
+	margin-top: 20px;
+}
+
+.instrucoes li ul {
+	padding: 0 20px;
+	list-style-type: circle;
+}
+
+.instrucoes li ul li {
+	margin-top: 5px;
+}
+
+#verificar {
+	list-style-type: circle;
+	padding: 0 30px;
+	margin-top: 20px;
+}
+
+#verificar li {
+	margin-top: 10px;
+}
+
+.ok {
+	font-weight: bold;
+	color: green;
+}
+
+.no {
+	font-weight: bold;
+	color: red;
+}
+
+#loading {
+	text-align: center;
+	display: none;
+}
+
+.errors {
+	color: #D8000C;
+	background-color: #FFBABA;
+	padding: 10px 20px;
+	border: 1px dashed #D8000C;
+	margin-top: 40px;	
+}
+
+.sucesso {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	border: 1px dashed #4F8A10;
+	padding: 10px 20px;
+	margin-top: 40px;
+}
+
+#verify-success {
+	display: none;
+}

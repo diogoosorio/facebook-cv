@@ -1,0 +1,14 @@
+.sprite { background: url('../img/sprites.png') no-repeat top left; display: inline-block; }
+.sprite-email{ background-position: 0 0; width: 16px; height: 14px; } 
+.sprite-friends-blue{ background-position: 0 -62px; width: 16px; height: 16px; } 
+.sprite-friends-hover{ background-position: 0 -128px; width: 16px; height: 16px; } 
+.sprite-globe-blue{ background-position: 0 -194px; width: 16px; height: 16px; } 
+.sprite-heart{ background-position: 0 -260px; width: 9px; height: 9px; } 
+.sprite-house{ background-position: 0 -319px; width: 9px; height: 9px; } 
+.sprite-linkedin{ background-position: 0 -378px; width: 14px; height: 14px; }
+.sprite-linkedin2 { background: url('../img/linkedin.png') 0 -2px no-repeat; display: inline-block; width: 14px; height: 14px; }
+.sprite-message-blue{ background-position: 0 -442px; width: 16px; height: 15px; } 
+.sprite-school{ background-position: 0 -507px; width: 11px; height: 8px; } 
+.sprite-sidebar-ad{ background-position: 0 -565px; width: 162px; height: 103px; } 
+.sprite-website{ background-position: 0 -722px; width: 16px; height: 14px; } 
+.sprite-work{ background-position: 0 -783px; width: 9px; height: 8px; } 
